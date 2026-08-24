@@ -1,0 +1,75 @@
+name: SAGARIS API
+description: >-
+  Agentic Revenue OS / AI Sales Operator for B2B sales teams, offering CRM, dialer, email/SMS sequences, and a shared
+  'Company Brain' memory. Exposes a read-only MCP server, a documented REST API, and advertised OpenAPI and llms.txt
+  contracts. Access is gated behind a paid workspace and the company is pre-launch.
+url: https://raw.githubusercontent.com/api-evangelist/sagaris-api/refs/heads/main/apis.yml
+created: '2026-08-24'
+modified: '2026-08-24'
+specificationVersion: '0.21'
+tags:
+  - sales
+  - crm
+  - sales-engagement
+  - dialer
+  - ai-agents
+  - mcp
+  - revenue
+  - conversation-intelligence
+  - sms
+  - email
+  - ai-receptionist
+apis:
+  - name: SAGARIS REST API
+    description: >-
+      REST API for the SAGARIS Agentic Revenue OS, including the Company Brain context endpoints. Bearer/workspace-key
+      authentication. Formal reference, SDKs, and webhooks are marked 'Soon' (pre-launch).
+    humanURL: https://www.sagaris.ai/docs
+    baseURL: https://api.sagaris.ai/v1
+    tags:
+      - sales
+      - crm
+      - sales-engagement
+      - dialer
+      - ai-agents
+      - mcp
+      - revenue
+      - conversation-intelligence
+      - sms
+      - email
+      - ai-receptionist
+    properties:
+      - type: Documentation
+        url: https://www.sagaris.ai/docs
+  - name: SAGARIS MCP Server
+    description: >-
+      Read-only MCP server over Streamable HTTP (stateless JSON mode), workspace-key bearer auth, exposing 5 GET-derived
+      tools (list_contacts, list_sequences, brain_claims_current, brain_contact_dossier, brain_nba_features). Described
+      as live.
+    humanURL: https://www.sagaris.ai/mcp
+    baseURL: https://www.sagaris.ai/api/v1/mcp
+    tags:
+      - sales
+      - crm
+      - sales-engagement
+      - dialer
+      - ai-agents
+      - mcp
+      - revenue
+      - conversation-intelligence
+      - sms
+      - email
+      - ai-receptionist
+    properties:
+      - type: MCPServer
+        url: https://www.sagaris.ai/api/v1/mcp
+      - type: Documentation
+        url: https://www.sagaris.ai/mcp
+maintainers:
+  - FN: SAGARIS, Inc.
+    url: https://www.sagaris.ai
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 78
+  at: '2026-08-24T05:17:28.500Z'
