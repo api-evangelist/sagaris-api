@@ -19,6 +19,18 @@ created: '2026-08-24'
 modified: '2026-08-24'
 specificationVersion: '0.21'
 tags:
+  - Sales
+  - CRM
+  - Sales Engagement
+  - Dialer
+  - AI Agents
+  - MCP
+  - Revenue
+  - Conversation Intelligence
+  - SMS
+  - Email
+  - AI Receptionist
+tags_raw:
   - sales
   - crm
   - sales-engagement
@@ -38,6 +50,18 @@ apis:
     humanURL: https://www.sagaris.ai/docs
     baseURL: https://api.sagaris.ai/v1
     tags:
+      - Sales
+      - CRM
+      - Sales Engagement
+      - Dialer
+      - AI Agents
+      - MCP
+      - Revenue
+      - Conversation Intelligence
+      - SMS
+      - Email
+      - AI Receptionist
+    tags_raw:
       - sales
       - crm
       - sales-engagement
@@ -60,6 +84,18 @@ apis:
     humanURL: https://www.sagaris.ai/mcp
     baseURL: https://www.sagaris.ai/api/v1/mcp
     tags:
+      - Sales
+      - CRM
+      - Sales Engagement
+      - Dialer
+      - AI Agents
+      - MCP
+      - Revenue
+      - Conversation Intelligence
+      - SMS
+      - Email
+      - AI Receptionist
+    tags_raw:
       - sales
       - crm
       - sales-engagement
